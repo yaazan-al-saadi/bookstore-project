@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Success</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z2SFHTGWN"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-1Z2SFHTGWN');
+    </script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/books">Books</a>
+    <a href="/details">Book Details</a>
+    <a href="/order">Order Form</a>
+    <a href="/contact">Contact Us</a>
+</nav>
+
+<div class="container">
+    <h1>Order Submitted Successfully!</h1>
+
+    <p>Thank you for your order. We will contact you soon.</p>
+
+    <a href="/">
+        <button>Back to Home</button>
+    </a>
+</div>
+
+<footer>
+    <p>BookStore Website Project</p>
+</footer>
+
+</body>
+</html>
